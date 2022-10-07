@@ -14,6 +14,8 @@
 		7366304C28EF4F9A00B8FAC6 /* coffeemastersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366304B28EF4F9A00B8FAC6 /* coffeemastersTests.swift */; };
 		7366305628EF4F9A00B8FAC6 /* coffeemastersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366305528EF4F9A00B8FAC6 /* coffeemastersUITests.swift */; };
 		7366305828EF4F9A00B8FAC6 /* coffeemastersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366305728EF4F9A00B8FAC6 /* coffeemastersUITestsLaunchTests.swift */; };
+		7366306528F013DD00B8FAC6 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366306428F013DD00B8FAC6 /* Offer.swift */; };
+		7366306728F02A1C00B8FAC6 /* OfferPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366306628F02A1C00B8FAC6 /* OfferPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		7366305128EF4F9A00B8FAC6 /* coffeemastersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coffeemastersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7366305528EF4F9A00B8FAC6 /* coffeemastersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coffeemastersUITests.swift; sourceTree = "<group>"; };
 		7366305728EF4F9A00B8FAC6 /* coffeemastersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coffeemastersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7366306428F013DD00B8FAC6 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		7366306628F02A1C00B8FAC6 /* OfferPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				7366303A28EF4F9800B8FAC6 /* coffeemastersApp.swift */,
+				7366306428F013DD00B8FAC6 /* Offer.swift */,
+				7366306628F02A1C00B8FAC6 /* OfferPage.swift */,
 				7366303C28EF4F9800B8FAC6 /* ContentView.swift */,
 				7366303E28EF4F9A00B8FAC6 /* Assets.xcassets */,
 				7366304028EF4F9A00B8FAC6 /* Preview Content */,
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7366306528F013DD00B8FAC6 /* Offer.swift in Sources */,
+				7366306728F02A1C00B8FAC6 /* OfferPage.swift in Sources */,
 				7366303D28EF4F9800B8FAC6 /* ContentView.swift in Sources */,
 				7366303B28EF4F9800B8FAC6 /* coffeemastersApp.swift in Sources */,
 			);
