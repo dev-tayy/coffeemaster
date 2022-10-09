@@ -16,6 +16,10 @@
 		7366305828EF4F9A00B8FAC6 /* coffeemastersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366305728EF4F9A00B8FAC6 /* coffeemastersUITestsLaunchTests.swift */; };
 		7366306528F013DD00B8FAC6 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366306428F013DD00B8FAC6 /* Offer.swift */; };
 		7366306728F02A1C00B8FAC6 /* OfferPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366306628F02A1C00B8FAC6 /* OfferPage.swift */; };
+		7366306928F040BB00B8FAC6 /* MenuPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366306828F040BB00B8FAC6 /* MenuPage.swift */; };
+		7366306B28F0412000B8FAC6 /* InfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366306A28F0412000B8FAC6 /* InfoPage.swift */; };
+		7366306D28F0413900B8FAC6 /* OrderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366306C28F0413900B8FAC6 /* OrderPage.swift */; };
+		7366307128F06AF300B8FAC6 /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366307028F06AF300B8FAC6 /* ProductItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		7366305728EF4F9A00B8FAC6 /* coffeemastersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coffeemastersUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7366306428F013DD00B8FAC6 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 		7366306628F02A1C00B8FAC6 /* OfferPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferPage.swift; sourceTree = "<group>"; };
+		7366306828F040BB00B8FAC6 /* MenuPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPage.swift; sourceTree = "<group>"; };
+		7366306A28F0412000B8FAC6 /* InfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPage.swift; sourceTree = "<group>"; };
+		7366306C28F0413900B8FAC6 /* OrderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPage.swift; sourceTree = "<group>"; };
+		7366307028F06AF300B8FAC6 /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +106,9 @@
 		7366303928EF4F9800B8FAC6 /* coffeemasters */ = {
 			isa = PBXGroup;
 			children = (
+				7366306F28F06A4400B8FAC6 /* Views */,
+				7366306E28F06A2600B8FAC6 /* Page Views */,
 				7366303A28EF4F9800B8FAC6 /* coffeemastersApp.swift */,
-				7366306428F013DD00B8FAC6 /* Offer.swift */,
-				7366306628F02A1C00B8FAC6 /* OfferPage.swift */,
 				7366303C28EF4F9800B8FAC6 /* ContentView.swift */,
 				7366303E28EF4F9A00B8FAC6 /* Assets.xcassets */,
 				7366304028EF4F9A00B8FAC6 /* Preview Content */,
@@ -131,6 +139,26 @@
 				7366305728EF4F9A00B8FAC6 /* coffeemastersUITestsLaunchTests.swift */,
 			);
 			path = coffeemastersUITests;
+			sourceTree = "<group>";
+		};
+		7366306E28F06A2600B8FAC6 /* Page Views */ = {
+			isa = PBXGroup;
+			children = (
+				7366306828F040BB00B8FAC6 /* MenuPage.swift */,
+				7366306C28F0413900B8FAC6 /* OrderPage.swift */,
+				7366306628F02A1C00B8FAC6 /* OfferPage.swift */,
+				7366306A28F0412000B8FAC6 /* InfoPage.swift */,
+			);
+			path = "Page Views";
+			sourceTree = "<group>";
+		};
+		7366306F28F06A4400B8FAC6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7366306428F013DD00B8FAC6 /* Offer.swift */,
+				7366307028F06AF300B8FAC6 /* ProductItem.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7366306D28F0413900B8FAC6 /* OrderPage.swift in Sources */,
 				7366306528F013DD00B8FAC6 /* Offer.swift in Sources */,
 				7366306728F02A1C00B8FAC6 /* OfferPage.swift in Sources */,
+				7366306B28F0412000B8FAC6 /* InfoPage.swift in Sources */,
+				7366307128F06AF300B8FAC6 /* ProductItem.swift in Sources */,
+				7366306928F040BB00B8FAC6 /* MenuPage.swift in Sources */,
 				7366303D28EF4F9800B8FAC6 /* ContentView.swift in Sources */,
 				7366303B28EF4F9800B8FAC6 /* coffeemastersApp.swift in Sources */,
 			);
