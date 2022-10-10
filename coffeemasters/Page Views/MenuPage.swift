@@ -11,10 +11,15 @@ struct MenuPage: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
-                    ProductItem()
+                ForEach(0 ..< 5) { item in
+                    NavigationLink {
+                        DetailsPage()
+                    } label: {
+                        ProductItem(product: Product(id: 1, name: "Capucchino", price: 4.5, image: "", description: ""))
+                    }
+                    
                 }
-            }.navigationTitle("Menu")
+            }.navigationTitle("Products")
         }
     }
 }
